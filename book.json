@@ -1,0 +1,50 @@
+{
+  "title": "Lagrange调度系统用户手册",
+  "description": "Lagrange调度系统是一个优秀的机器人调度系统。具有动态路径资源分配，机器人管理，地图管理等功能。本文档包含了调度系统客户端使用方法和API说明文档。",
+  "language": "zh",
+  "gitbook": "3.x.x",
+  "plugins": [
+    "github",
+    "editlink",
+    "prism",
+    "downloadpdf",
+    "yahei",
+    "katex",
+    "-search"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/BluewhaleRobot/lagrange-doc"
+    },
+    "editlink": {
+      "base": "https://github.com/BlueWhaleRobot/lagrange-doc/edit/master",
+      "label": "编辑本页"
+    },
+    "sharing": {
+      "weibo": true,
+      "twitter": false,
+      "facebook": false
+    },
+    "downloadpdf": {
+      "base": "https://doc.bwbot.org/pdf/lagrange-doc",
+      "label": "下载PDF",
+      "multilingual": false
+    },
+    "fontSettings": {
+      "theme": "white",
+      "family": "msyh",
+      "size": 2
+    }
+  },
+  "pdf": {
+    "pageNumbers": true,
+    "fontSize": 12,
+    "paperSize": "a4",
+    "margin": {
+      "right": 30,
+      "left": 30,
+      "top": 30,
+      "bottom": 50
+    }
+  }
+}
