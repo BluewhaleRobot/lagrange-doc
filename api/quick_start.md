@@ -20,7 +20,8 @@ URL: /start
 |map_id|string|调度系统所采用的地图id|
 |path_id|string|调度系统所采用的path_id|
 
-返回参数
+返回参数：
+
 |参数|类型|说明|
 |--|--|--|
 |layout|object|成功返回的layout数据|
@@ -63,7 +64,8 @@ requests.get("http://192.168.0.128:24958/api/v1/stop")
 
 URL: /schedule
 请求方式： POST
-请求参数
+请求参数：
+
 |参数|类型|说明|
 |--|--|--|
 |location_id|string|机器人移动目标点ID，location_id和location参数只用设置其中一个。充电和待机任务不用设置。|
@@ -73,7 +75,7 @@ URL: /schedule
 |robot_id|string|可选参数，当指定此参数时，只有指定的机器人能够接此任务|
 |callback_url|string|任务状态回调，当任务状态发生变化时服务会对对应url发送post请求，内容为schedule状态数据|
 
-返回参数
+返回参数：
 
 |参数|类型|说明|
 |--|--|--|
