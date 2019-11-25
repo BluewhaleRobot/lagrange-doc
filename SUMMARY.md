@@ -4,6 +4,10 @@
 
 - [引言](README.md)
 
+## 安装
+
+- [安装](manual/install.md)
+
 ## 调度系统客户端使用
 
 - [注册用户](manual/register.md)
