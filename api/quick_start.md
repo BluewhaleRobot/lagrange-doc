@@ -77,10 +77,7 @@ URL: /schedule
 
 返回参数：
 
-|参数|类型|说明|
-|--|--|--|
-|schedule_id|string|调度任务id|
-|schedule_status|string|调度任务状态|
+返回参数: schedule json 数据对象
 
 调用例子
 
@@ -114,13 +111,9 @@ URL：/schedule
 
 |参数|类型|说明|
 |--|--|--|
-|schedule_id|string|调度任务ID|
+|id|string|调度任务ID|
 
-返回值
-
-|参数|类型|说明|
-|--|--|--|
-|schedule|object|schedule对象|
+返回参数: schedule json 数据对象
 
 请求例子
 
