@@ -79,6 +79,203 @@ URL: `/start`
 |--|--|--|
 |layout|Object|启动成功后返回layout数据|
 
+示例layout数据
+
+```json
+{
+    "status": "ok",
+    "layout": {
+        "name": "path5",
+        "points": [
+            {
+                "type": "TRAFFIC_POINT",
+                "location": {
+                    "x": -7.0625,
+                    "y": -15.5625,
+                    "theta": 0
+                },
+                "name": "",
+                "id": "fb9b5da4-d3f8-46af-9f06-6740d18b1350",
+                "status": "FREE",
+                "radius": 0.5,
+                "tolerance": {
+                    "xy": 0.1,
+                    "theta": 0.1
+                }
+            },
+            ...
+        ],
+        "ways": [
+            {
+                "id": "b4a0cdaa-5f52-4191-9340-36d19a1cb0a6",
+                "points": [
+                    "29d8aea0-ea06-4b61-9b73-cea4ee6833a5",
+                    "d8db564c-dede-4bfc-8456-a7dfee9e66bb"
+                ],
+                "status": "FREE",
+                "robots": []
+            }
+            ...
+        ]
+    },
+    "map": {
+        "_id": {
+            "$oid": "5dd34397869f0667d15799e1"
+        },
+        "id": "04f777b8-ff9d-4303-87ac-334dab2e0ffe",
+        "name": "largemap",
+        "create_time": 1574126487670,
+        "origin": {
+            "x": -29.764,
+            "y": -33.38139
+        },
+        "image_width": 1366,
+        "image_height": 778,
+        "resolution": 0.05,
+        "image_png": "/media/map/map_ET4FjhJ.png",
+        "image_pgm": "/media/map/map_ET4FjhJ.pgm",
+        "keyframedb_bson": "/media/map/keyframedb_hHK57gx.bson",
+        "keyframes_bson": "/media/map/keyframes_FnNLIte.bson",
+        "map_bson": "/media/map/map_T2J2lrF.bson",
+        "mappoints_bson": "/media/map/mappoints_zFg5qGm.bson",
+        "robot_trajectory": "/media/map/RobotTrajectory_4XjHdHI.txt",
+        "map_yaml": "/media/map/largemap.yaml",
+        "md5sum": "dd0c7a1c2da0194e66bbe8aee3b5d891",
+        "paths": [
+            {
+                "_id": {
+                    "$oid": "5dd3442c869f0667d15799e2"
+                },
+                "map_id": "04f777b8-ff9d-4303-87ac-334dab2e0ffe",
+                "create_time": 1574126636820,
+                "layout": {
+                    "name": "path4",
+                    "points": [
+                        {
+                            "type": "TRAFFIC_POINT",
+                            "location": {
+                                "x": -7.0625,
+                                "y": -15.5625,
+                                "theta": 0
+                            },
+                            "name": "",
+                            "id": "fb9b5da4-d3f8-46af-9f06-6740d18b1350",
+                            "status": "FREE",
+                            "radius": 0.5,
+                            "tolerance": {
+                                "xy": 0.1,
+                                "theta": 0.1
+                            }
+                        },
+                        ...
+                    ],
+                    "ways": [
+                        {
+                            "id": "10d1d0b3-23d3-4b1d-a16e-0e2f86be6a4d",
+                            "points": [
+                                "fb9b5da4-d3f8-46af-9f06-6740d18b1350",
+                                "e84adf2b-4c56-419a-beb0-945b60102772"
+                            ],
+                            "status": "FREE"
+                        },
+                        ...
+                    ]
+                },
+                "id": "598c5ed2-cb2f-40de-b806-5c94b8200ccf",
+                "name": "path4"
+            },
+            {
+                "_id": {
+                    "$oid": "5ddc8b3d65c125fbd33166d9"
+                },
+                "map_id": "04f777b8-ff9d-4303-87ac-334dab2e0ffe",
+                "create_time": 1574734653138,
+                "layout": {
+                    "name": "path5",
+                    "points": [
+                        {
+                            "type": "TRAFFIC_POINT",
+                            "location": {
+                                "x": -7.0625,
+                                "y": -15.5625,
+                                "theta": 0
+                            },
+                            "name": "",
+                            "id": "fb9b5da4-d3f8-46af-9f06-6740d18b1350",
+                            "status": "FREE",
+                            "radius": 0.5,
+                            "tolerance": {
+                                "xy": 0.1,
+                                "theta": 0.1
+                            }
+                        },
+                        ...
+                    ],
+                    "ways": [
+                        {
+                            "id": "10d1d0b3-23d3-4b1d-a16e-0e2f86be6a4d",
+                            "points": [
+                                "fb9b5da4-d3f8-46af-9f06-6740d18b1350",
+                                "e84adf2b-4c56-419a-beb0-945b60102772"
+                            ],
+                            "status": "FREE"
+                        },
+                        ...
+                    ]
+                },
+                "id": "503ab888-ae67-4981-8840-25f48feeeb9f",
+                "name": "path5"
+            }
+        ]
+    },
+    "path": {
+        "_id": {
+            "$oid": "5ddc8b3d65c125fbd33166d9"
+        },
+        "map_id": "04f777b8-ff9d-4303-87ac-334dab2e0ffe",
+        "create_time": 1574734653138,
+        "layout": {
+            "name": "path5",
+            "points": [
+                {
+                    "type": "TRAFFIC_POINT",
+                    "location": {
+                        "x": -7.0625,
+                        "y": -15.5625,
+                        "theta": 0
+                    },
+                    "name": "",
+                    "id": "fb9b5da4-d3f8-46af-9f06-6740d18b1350",
+                    "status": "FREE",
+                    "radius": 0.5,
+                    "tolerance": {
+                        "xy": 0.1,
+                        "theta": 0.1
+                    }
+                },
+                ...
+            ],
+            "ways": [
+                {
+                    "id": "10d1d0b3-23d3-4b1d-a16e-0e2f86be6a4d",
+                    "points": [
+                        "fb9b5da4-d3f8-46af-9f06-6740d18b1350",
+                        "e84adf2b-4c56-419a-beb0-945b60102772"
+                    ],
+                    "status": "FREE",
+                    "robots": []
+                },
+                ...
+            ]
+        },
+        "id": "503ab888-ae67-4981-8840-25f48feeeb9f",
+        "name": "path5"
+    },
+    "lock_id": "",
+    "robot_id": ""
+}
+```
+
 #### 停止调度系统
 
 URL: `/stop`
@@ -115,6 +312,71 @@ URL: `/schedule`
 |callback_url|string|任务状态回调，当任务状态发生变化时服务会对对应url发送post请求，内容为schedule状态数据|
 
 返回参数: schedule json 数据对象
+
+示例返回数据:
+
+```json
+{
+    "create_time": 1576127957717,
+    "start_time": 0,
+    "end_time": 0,
+    "id": "6f32ceeb-1a85-4ef6-9608-246098a4ac70",
+    "destination": {
+        "x": -5.29884054000141,
+        "y": -2.7553970808007335,
+        "theta": 0
+    },
+    "destination_id": "",
+    "priority": 2,
+    "callback_url": "",
+    "robot": {
+        "id": "16000CD479EEEFF2B29B8AC54E96F29802E50E724E95834F5935FE999BE8DB2816E01A482211",
+        "mac": "00:e0:4c:ce:83:87",
+        "ip": "192.168.0.196",
+        "port": 3546,
+        "version": "4.0.0",
+        "galileo_status": {
+            "mapStatus": 0,
+            "controlSpeedX": 0.0,
+            "currentSpeedX": 0.0,
+            "targetNumID": -1,
+            "power": 38.76279067993164,
+            "navStatus": 1,
+            "loopStatus": 0,
+            "gbaStatus": 0,
+            "targetDistance": -1.0,
+            "controlSpeedTheta": 0.0,
+            "currentSpeedTheta": 0.0006672566523775458,
+            "header": {
+                "stamp": {
+                    "secs": 1576128007,
+                    "nsecs": 241101980
+                },
+                "frame_id": "map",
+                "seq": 943
+            },
+            "busyStatus": 0,
+            "chargeStatus": 0,
+            "currentAngle": 2.859792709350586,
+            "currentPosX": -4.2341084480285645,
+            "currentPosY": 0.9780586957931519,
+            "gcStatus": 0,
+            "angleGoalStatus": 1,
+            "visualStatus": 1,
+            "targetStatus": 0
+        },
+        "is_enabled": true,
+        "is_online": true,
+        "server_url": "http://192.168.0.196:3546/api/v1/",
+        "current_schedule": null,
+        "last_update_time": 1576127957812,
+        "name": ""
+    },
+    "state": "EXECUTING",
+    "task": null,
+    "result": ""
+}
+```
 
 #### 取消任务
 
@@ -210,6 +472,49 @@ URL: `/layout/lock`
 |--|--|--|
 |lock_id|string|获取的锁的id|
 |layout|object|当前地图状态数据|
+
+返回示例数据:
+
+```json
+{
+    "status": "ok",
+    "lock_id": "3d1e6049-750d-483e-aa32-dd7b937373ec",
+    "layout": {
+        "name": "path5",
+        "points": [
+            {
+                "type": "TRAFFIC_POINT",
+                "location": {
+                    "x": -7.0625,
+                    "y": -15.5625,
+                    "theta": 0
+                },
+                "name": "",
+                "id": "fb9b5da4-d3f8-46af-9f06-6740d18b1350",
+                "status": "FREE",
+                "radius": 0.5,
+                "tolerance": {
+                    "xy": 0.1,
+                    "theta": 0.1
+                }
+            },
+            ...
+        ],
+        "ways": [
+            {
+                "id": "10d1d0b3-23d3-4b1d-a16e-0e2f86be6a4d",
+                "points": [
+                    "fb9b5da4-d3f8-46af-9f06-6740d18b1350",
+                    "e84adf2b-4c56-419a-beb0-945b60102772"
+                ],
+                "status": "FREE",
+                "robots": []
+            },
+            ...
+        ]
+    }
+}
+```
 
 #### 解锁地图
 
@@ -458,6 +763,73 @@ URL: `/robot`
 |status|string|是否成功获取状态|
 |robot|object|机器人状态信息|
 
+返回示例信息
+
+```json
+{
+    "status": "ok",
+    "robots": [
+        {
+            "id": "16000CD479EEEFF2B29B8AC54E96F29802E50E724E95834F5935FE999BE8DB2816E01A482211",
+            "mac": "00:e0:4c:ce:83:87",
+            "ip": "192.168.0.196",
+            "port": 3546,
+            "version": "4.0.0",
+            "galileo_status": {
+                "mapStatus": 0,
+                "controlSpeedX": 0.0,
+                "currentSpeedX": -1.4528632164001465e-07,
+                "targetNumID": -1,
+                "power": 38.7115478515625,
+                "navStatus": 1,
+                "loopStatus": 0,
+                "gbaStatus": 0,
+                "targetDistance": -1.0,
+                "controlSpeedTheta": 0.0,
+                "currentSpeedTheta": -0.00039996925625018775,
+                "header": {
+                    "stamp": {
+                        "secs": 1576128308,
+                        "nsecs": 894376993
+                    },
+                    "frame_id": "map",
+                    "seq": 9989
+                },
+                "busyStatus": 0,
+                "chargeStatus": 0,
+                "currentAngle": -0.04512203484773636,
+                "currentPosX": -5.170620441436768,
+                "currentPosY": -2.721562385559082,
+                "gcStatus": 0,
+                "angleGoalStatus": 1,
+                "visualStatus": 2,
+                "targetStatus": 0
+            },
+            "is_enabled": true,
+            "is_online": true,
+            "server_url": "http://192.168.0.196:3546/api/v1/",
+            "current_schedule": null,
+            "last_update_time": 1576128259367,
+            "name": ""
+        },
+        {
+            "id": "66D23E4AC785F675EB3615D0B1C1CA63AF80B6F6B285751CCC4A075B10FF7E2C2BD26B89D75A",
+            "mac": "00:e0:4c:13:4f:21",
+            "ip": "192.168.0.121",
+            "port": 3546,
+            "version": "4.0.0",
+            "galileo_status": null,
+            "is_enabled": false,
+            "is_online": false,
+            "server_url": "http://192.168.0.121:3546/api/v1/",
+            "current_schedule": null,
+            "last_update_time": 1576122896046,
+            "name": ""
+        }
+    ]
+}
+```
+
 #### 修改机器人名称
 
 URL: `/robot`
@@ -580,6 +952,64 @@ URL: `/action`
 
 返回参数：目标action信息
 
+示例返回数据
+
+```json
+{
+    "type": "charge_action",
+    "id": "45affe13-37de-4041-b592-70db27ec4e38",
+    "x": -3.799302718853892,
+    "y": 0.9755894865773105,
+    "theta": 1.48352986419518,
+    "robot": {
+        "id": "16000CD479EEEFF2B29B8AC54E96F29802E50E724E95834F5935FE999BE8DB2816E01A482211",
+        "mac": "00:e0:4c:ce:83:87",
+        "ip": "192.168.0.196",
+        "port": 3546,
+        "version": "4.0.0",
+        "galileo_status": {
+            "mapStatus": 0,
+            "controlSpeedX": 0,
+            "currentSpeedX": -2.3283064365386963e-7,
+            "targetNumID": -1,
+            "power": 38.631343841552734,
+            "navStatus": 1,
+            "loopStatus": 0,
+            "gbaStatus": 0,
+            "targetDistance": 1.2436540126800537,
+            "controlSpeedTheta": 0,
+            "currentSpeedTheta": 3.206077963113785e-7,
+            "header": {
+            "stamp": {
+                "secs": 1576128895,
+                "nsecs": 762253046
+            },
+            "frame_id": "map",
+            "seq": 27595
+            },
+            "busyStatus": 0,
+            "chargeStatus": 0,
+            "currentAngle": 2.205643653869629,
+            "currentPosX": -5.04252815246582,
+            "currentPosY": 1.0082411766052246,
+            "gcStatus": 0,
+            "angleGoalStatus": 1,
+            "visualStatus": 1,
+            "targetStatus": 2
+        },
+        "is_enabled": true,
+        "is_online": true,
+        "server_url": "http://192.168.0.196:3546/api/v1/",
+        "current_schedule": null,
+        "last_update_time": 1576128846285,
+        "name": ""
+    },
+    "state": "WAITTING",
+    "result": "",
+    "progress": 0
+}
+```
+
 #### 创建Action
 
 URL: `/action`
@@ -638,6 +1068,79 @@ URL: `/task`
 |id|string|task id, task唯一字符串。可选参数，如果没有id则返回最后创建的20个task。如果有id则返回目标task信息|
 
 返回参数： task 信息
+
+示例返回信息:
+
+```json
+{
+  "id": "50d79436-50c6-43da-9117-d569684f6205",
+  "name": "navigation task",
+  "loop_flag": false,
+  "current_task": null,
+  "state": "WAITTING",
+  "sub_tasks": [
+    {
+      "type": "charge_action",
+      "x": -3.799302718853892,
+      "y": 0.9755894865773105,
+      "theta": 1.48352986419518,
+      "robot": {
+        "id": "16000CD479EEEFF2B29B8AC54E96F29802E50E724E95834F5935FE999BE8DB2816E01A482211",
+        "mac": "00:e0:4c:ce:83:87",
+        "ip": "192.168.0.196",
+        "port": 3546,
+        "version": "4.0.0",
+        "galileo_status": {
+          "mapStatus": 0,
+          "controlSpeedX": 0,
+          "currentSpeedX": -2.0489096641540527e-7,
+          "targetNumID": -1,
+          "power": 38.68146896362305,
+          "navStatus": 1,
+          "loopStatus": 0,
+          "gbaStatus": 0,
+          "targetDistance": 1.0949629545211792,
+          "controlSpeedTheta": 0,
+          "currentSpeedTheta": -0.0005335922469384968,
+          "header": {
+            "stamp": {
+              "secs": 1576128494,
+              "nsecs": 861792087
+            },
+            "frame_id": "map",
+            "seq": 15568
+          },
+          "busyStatus": 0,
+          "chargeStatus": 0,
+          "currentAngle": 1.8335497379302979,
+          "currentPosX": -4.688186168670654,
+          "currentPosY": 0.3361913859844208,
+          "gcStatus": 0,
+          "angleGoalStatus": 1,
+          "visualStatus": 1,
+          "targetStatus": 2
+        },
+        "is_enabled": true,
+        "is_online": true,
+        "server_url": "http://192.168.0.196:3546/api/v1/",
+        "current_schedule": null,
+        "last_update_time": 1576128445446,
+        "name": ""
+      },
+      "state": "WAITTING",
+      "result": "",
+      "progress": 0
+    },
+    {
+      "id": "90575557-f993-4146-96d6-3450d84457ba",
+      "type": "simple_action",
+      "state": "WAITTING",
+      "progress": 0
+    }
+  ],
+  "progress": 0
+}
+```
 
 #### 创建Task
 
