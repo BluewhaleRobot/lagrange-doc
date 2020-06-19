@@ -935,8 +935,8 @@ Action代表机器人执行的一个动作，比如等待5秒，或播放一段�
 |--|--|--|
 |callback_action|回调action，执行此action时会向指定的url发送http请求|url:http请求的地址<br/>method:http 请求的方式<br/>data:http请求的数据<br/>|
 |sleep_action|等待动作，机器人等待对应时间后执行之后的action|wait_time: 机器人等待时间|
-|charge_action|自动充电动作， 只有在机器人在充电桩附近时才可以执行此动作|x: 充电桩x坐标<br>y: 充电桩y坐标<br>theta: 充电桩角度<br>robot_id: 需要执行此动作的机器人id|
-|local_move_action|局部移动动作。控制机器人小范围移动，适用于精准对接场景|robot_id: 需要执行此动作的机器人id<br>distance: 机器人向前移动距离，当为负值时则机器人后退对应距离<br>angle:机器人转动对应角度<br>method:定位方式。0使用纯惯性导航定位。1采用激光雷达辅助定位|
+|charge_action|自动充电动作， 只有在机器人在充电桩附近时才可以执行此动作|x: 充电桩x坐标<br>y: 充电桩y坐标<br>theta: 充电桩角度, 单位为弧度<br>robot_id: 需要执行此动作的机器人id|
+|local_move_action|局部移动动作。控制机器人小范围移动，适用于精准对接场景|robot_id: 需要执行此动作的机器人id<br>distance: 机器人向前移动距离，当为负值时则机器人后退对应距离<br>angle:机器人转动对应角度，单位为弧度<br>method:定位方式。0使用纯惯性导航定位。1采用激光雷达辅助定位|
 
 #### 获取Action
 
